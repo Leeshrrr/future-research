@@ -21,9 +21,13 @@ body {
 
 header {
     position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
 }
 
 header h1 {
+    z-index: 11;
     font-size: 144px;
     margin: 0;
     width: 400px;
@@ -31,6 +35,7 @@ header h1 {
 }
 
 header p {
+    z-index: 11;
     font-size: 24px;
     font-weight: lighter;
     text-align: left;
@@ -39,10 +44,26 @@ header p {
     margin: 30px 10px;
 }
 
+header h3 {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    opacity: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 section {
     width: 100%;
     text-align: right;
     margin: 0;
+    position: relative;
+    z-index: 10;
 }
 
 h2 {
@@ -62,19 +83,68 @@ p {
     text-align: right;
     margin-right: 30px;
     margin-left: auto;
+    z-index: 10;
 }
 
 .header-break {
-    height: 100px
+    height: 250px
 }
 
 #header-img {
-    width: 1200px;
+    position: absolute;
+    right: -20%;
+    width: 1400px;
     margin-left: auto;
     margin-right: 30px;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .section-divider {
     height: 800px;
+}
+
+.image {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#contact-lens {
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+    opacity: 0;
+}
+
+#depress {
+    position: absolute;
+    width: 800px;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+#suicide {
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+
+#crime {
+    position: absolute;
+    width: 700px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+#illness {
+    position: absolute;
+    width: 700px;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
 }
