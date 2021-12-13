@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Ruluko;
+    src: url(fonts/Ruluko-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rowdies;
+    src: url(fonts/Rowdies-Light.ttf);
+}
+
+html {}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Ruluko;
+    font-weight: 200;
+}
+
+header {
+    position: fixed;
+}
+
+header h1 {
+    font-size: 144px;
+    margin: 0;
+    width: 400px;
+    font-weight: normal;
+}
+
+header p {
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: left;
+    line-height: 1.5em;
+    width: 450px;
+    margin: 30px 10px;
+}
+
+section {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+}
+
+h2 {
+    font-family: Rowdies;
+    font-size: 36px;
+    font-weight: normal;
+    width: 700px;
+    text-align: right;
+    margin-right: 30px;
+    margin-left: auto;
+}
+
+p {
+    font-size: 24px;
+    font-weight: normal;
+    width: 700px;
+    text-align: right;
+    margin-right: 30px;
+    margin-left: auto;
+}
+
+.header-break {
+    height: 100px
+}
+
+#header-img {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: 30px;
+    opacity: 0.5;
+}
+
+.section-divider {
+    height: 800px;
+}
